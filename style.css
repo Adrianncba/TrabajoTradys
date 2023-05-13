@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background-color: black;
+    
+}
+/*********************************************************/
+/*                        NAVBAR                         */
+/*********************************************************/
+
+.grillaNav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: min-content;
+    grid-template-areas: 
+    "logoN barraNav";
+}
+.logoNav{
+    grid-area: logoN;
+}
+.logoNav img{
+    width: 20rem;
+    margin-top: .4rem;
+}
+.navBar{
+    grid-area: barraNav;
+}
+.navBar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navBar ul li{
+    margin: 2.4rem;
+    background-color: red;
+    padding: .3rem;
+    border-radius: 2rem;  
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+/*********************************************************/
+/*                          MAIN                         */
+/*********************************************************/
+.presentacionMain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content;
+    grid-template-areas: 
+    "pMain cMain"
+    
+    ;
+    
+}
+.presentacionMain{
+    background-color: red;
+}
+
+.parrafoMain{
+    grid-area: pMain;
+    padding: 2rem;
+    color: antiquewhite;
+}
+.imagenMain1 img{
+    padding: 2rem;
+    width: 25rem;
+    grid-area: cMain;
+    margin-left: 10rem;
+}
+
+.clientes{
+    background-color: red;
+    padding: 2rem;
+}
