@@ -1,0 +1,46 @@
+@media screen and (max-width: 425px){
+
+      /*********************************************************/
+  /*                      NAVBAR  QUERIES                  */
+/*********************************************************/
+.grillaNav{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    .logoNav{
+        img{
+            display: none;
+        }
+    }
+    .navBar{
+        ul{
+            padding-left: 0rem;
+            li{
+                margin:.3rem;
+                padding:.2rem
+            }
+        }
+    }
+}
+
+
+    .presentacionMain{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 20rem;
+            margin-left: 0rem;
+        }
+    }
+
+    .presentacionMain2{
+        display: flex;
+        flex-direction: column;
+        .imagenMain2{
+            padding: 0rem;
+            img{
+                width: 15rem;
+            }
+        }
+    }
+}

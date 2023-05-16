@@ -1,11 +1,19 @@
 .presentacionMain2{
     display: flex;
     
+    
     .imagenMain2{
+        margin:2rem;
         img{
-            width: 2rem;
+            width: 25rem;
+            margin:2rem;
+        
         }
     }
   
-    .parrafoMain2{}
+    .parrafoMain2{
+        padding: 5rem;
+        color: red;
+        text-align: center;
+    }
 }

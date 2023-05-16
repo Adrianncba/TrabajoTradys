@@ -1,3 +1,74 @@
+.presentacionMain2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.presentacionMain2 .imagenMain2 {
+  margin: 2rem;
+}
+.presentacionMain2 .imagenMain2 img {
+  width: 25rem;
+  margin: 2rem;
+}
+.presentacionMain2 .parrafoMain2 {
+  padding: 5rem;
+  color: red;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  /*********************************************************/
+  /*                      NAVBAR  QUERIES                  */
+  /*********************************************************/
+  .grillaNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem;
+  }
+  .grillaNav .logoNav img {
+    display: none;
+  }
+  .grillaNav .navBar ul {
+    padding-left: 0rem;
+  }
+  .grillaNav .navBar ul li {
+    margin: 0.3rem;
+    padding: 0.2rem;
+  }
+  .presentacionMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .presentacionMain img {
+    width: 20rem;
+    margin-left: 0rem;
+  }
+  .presentacionMain2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .presentacionMain2 .imagenMain2 {
+    padding: 0rem;
+  }
+  .presentacionMain2 .imagenMain2 img {
+    width: 15rem;
+  }
+}
 .parrafoMain h1 {
   text-align: center;
 }

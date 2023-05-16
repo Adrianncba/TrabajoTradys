@@ -25,7 +25,7 @@ header{
     margin-top: .4rem;
 }
 .navBar{
-    grid-area: barraNav;
+   padding: 0rem;
 }
 .navBar ul{
     display: flex;
@@ -35,7 +35,7 @@ header{
 .navBar ul li{
     margin: 2.4rem;
     background-color: red;
-    padding: .3rem;
+    padding: .7rem;
     border-radius: 2rem;  
 }
 .navBar ul li a{
@@ -46,28 +46,22 @@ header{
 /*                          MAIN                         */
 /*********************************************************/
 .presentacionMain{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: min-content;
-    grid-template-areas: 
-    "pMain cMain"
-    
-    ;
-    
+    display: flex;
+
 }
 .presentacionMain{
     background-color: red;
 }
 
 .parrafoMain{
-    grid-area: pMain;
+    
     padding: 2rem;
     color: antiquewhite;
 }
 .imagenMain1 img{
     padding: 2rem;
     width: 25rem;
-    grid-area: cMain;
+    
     margin-left: 10rem;
 }
 
@@ -75,3 +69,14 @@ header{
     background-color: red;
     padding: 2rem;
 }
+
+
+   /*********************************************************/
+  /*                      NAVBAR  QUERIES                  */
+/*********************************************************/
+  
+
+
+
+
+
